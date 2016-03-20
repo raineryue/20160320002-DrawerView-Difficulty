@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D535CE661C9EF01C00C8C56F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D535CE651C9EF01C00C8C56F /* MainViewController.m */; };
+		D535CE6A1C9EF09900C8C56F /* RYDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D535CE691C9EF09900C8C56F /* RYDrawerViewController.m */; };
+		D535CE6D1C9EF11600C8C56F /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D535CE6C1C9EF11600C8C56F /* TestTableViewController.m */; };
 		D5EB2CEA1C9E86CB004B8784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB2CE91C9E86CB004B8784 /* main.m */; };
 		D5EB2CED1C9E86CB004B8784 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB2CEC1C9E86CB004B8784 /* AppDelegate.m */; };
-		D5EB2CF01C9E86CB004B8784 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB2CEF1C9E86CB004B8784 /* ViewController.m */; };
 		D5EB2CF31C9E86CB004B8784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EB2CF11C9E86CB004B8784 /* Main.storyboard */; };
 		D5EB2CF51C9E86CB004B8784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EB2CF41C9E86CB004B8784 /* Assets.xcassets */; };
 		D5EB2CF81C9E86CB004B8784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EB2CF61C9E86CB004B8784 /* LaunchScreen.storyboard */; };
@@ -35,12 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D535CE641C9EF01C00C8C56F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D535CE651C9EF01C00C8C56F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D535CE681C9EF09900C8C56F /* RYDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYDrawerViewController.h; sourceTree = "<group>"; };
+		D535CE691C9EF09900C8C56F /* RYDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYDrawerViewController.m; sourceTree = "<group>"; };
+		D535CE6B1C9EF11600C8C56F /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		D535CE6C1C9EF11600C8C56F /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 		D5EB2CE51C9E86CB004B8784 /* 20160320002-DrawerView-Difficulty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160320002-DrawerView-Difficulty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EB2CE91C9E86CB004B8784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5EB2CEB1C9E86CB004B8784 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5EB2CEC1C9E86CB004B8784 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D5EB2CEE1C9E86CB004B8784 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5EB2CEF1C9E86CB004B8784 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D5EB2CF21C9E86CB004B8784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5EB2CF41C9E86CB004B8784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5EB2CF71C9E86CB004B8784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D535CE671C9EF09900C8C56F /* RYDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D535CE681C9EF09900C8C56F /* RYDrawerViewController.h */,
+				D535CE691C9EF09900C8C56F /* RYDrawerViewController.m */,
+			);
+			path = RYDrawerViewController;
+			sourceTree = "<group>";
+		};
 		D5EB2CDC1C9E86CB004B8784 = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +118,12 @@
 			children = (
 				D5EB2CEB1C9E86CB004B8784 /* AppDelegate.h */,
 				D5EB2CEC1C9E86CB004B8784 /* AppDelegate.m */,
-				D5EB2CEE1C9E86CB004B8784 /* ViewController.h */,
-				D5EB2CEF1C9E86CB004B8784 /* ViewController.m */,
+				D535CE641C9EF01C00C8C56F /* MainViewController.h */,
+				D535CE651C9EF01C00C8C56F /* MainViewController.m */,
+				D535CE6B1C9EF11600C8C56F /* TestTableViewController.h */,
+				D535CE6C1C9EF11600C8C56F /* TestTableViewController.m */,
 				D5EB2CF11C9E86CB004B8784 /* Main.storyboard */,
+				D535CE671C9EF09900C8C56F /* RYDrawerViewController */,
 				D5EB2CF41C9E86CB004B8784 /* Assets.xcassets */,
 				D5EB2CF61C9E86CB004B8784 /* LaunchScreen.storyboard */,
 				D5EB2CF91C9E86CB004B8784 /* Info.plist */,
@@ -270,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5EB2CF01C9E86CB004B8784 /* ViewController.m in Sources */,
 				D5EB2CED1C9E86CB004B8784 /* AppDelegate.m in Sources */,
 				D5EB2CEA1C9E86CB004B8784 /* main.m in Sources */,
+				D535CE6D1C9EF11600C8C56F /* TestTableViewController.m in Sources */,
+				D535CE6A1C9EF09900C8C56F /* RYDrawerViewController.m in Sources */,
+				D535CE661C9EF01C00C8C56F /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +516,7 @@
 				D5EB2D141C9E86CC004B8784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5EB2D151C9E86CC004B8784 /* Build configuration list for PBXNativeTarget "20160320002-DrawerView-DifficultyTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +525,7 @@
 				D5EB2D171C9E86CC004B8784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5EB2D181C9E86CC004B8784 /* Build configuration list for PBXNativeTarget "20160320002-DrawerView-DifficultyUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +534,7 @@
 				D5EB2D1A1C9E86CC004B8784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
